@@ -2,12 +2,12 @@
 Console.WriteLine("Name: [ไกรศักดิ์ นามวิเศษ]");
 Console.WriteLine("Course: Advanced Programming");
 Console.WriteLine("Instructor: [ผม นายไกรศักดิ์ นามวิเศษ รหัสนักศึกษา68040249103]");
-Console.WriteLine("--------------------------------------------------------");
+strLine("-", 50);
 Console.WriteLine("โปรแกรมแนะนำตัวเอง");
 Console.Write("โปรดบอกชื่อของคุณ: ");
 string name = Console.ReadLine();
 Console.WriteLine("สวัสดีครับ, " + name + "!");
-Console.WriteLine("--------------------------------------------------------");
+strLine("-", 50);
 Console.WriteLine("ขอบคุณที่ใช้โปรแกรมแนะนำตัวเอง!");
 
 //ทดสอบสร้าง Function
